@@ -1,0 +1,535 @@
+<html>
+    <head>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>
+
+
+        </title>
+
+
+        <style>
+
+            /* General styling and full page starts here */
+
+            html{
+                scroll-behavior: smooth;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+
+
+            }
+
+            a:hover{
+                color: red;
+            }
+
+            body{
+                font-family: 'Gothic A1', sans-serif;
+                font-size: 14px;
+            }
+
+
+            /* -------------- General styling and full page starts here -------------- */
+
+
+            /* -------------- full page style starts here -------------- */
+
+            #fullpage{
+                background-color: rgb(255, 255, 255);
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                width: 100%;
+                height: 2900;
+
+            }
+
+            #contents{
+                background-color: white;
+                position: absolute;
+                top: 0px;
+                left: 5%;
+                width: 90%;
+                height: 100%;
+                margin-top: 1em;
+
+            }
+
+            
+
+            /* -------------- nav starts here -------------- */
+
+            
+            #logo{
+                width: 50px;
+                height: auto;
+            }
+
+            ul{
+                list-style-type: none;
+                position: relative;
+                top: -50px;
+                left: 30px;
+            }
+
+            li{
+                float: left;
+                margin-right: 1em;
+                margin-left: 1em;
+                font-size: 1.2em;
+
+            }
+
+            li:hover{
+                color: red;
+            }
+
+
+            .navdropdown {
+                position: relative;
+                display: inline-block;
+                position: relative;
+                top: 0em;
+                margin-left: 1.5em;
+                margin-right: 1.5em;
+                }
+
+            .navdropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                padding: 12px 16px;
+                z-index: 1;
+                }
+
+            .navdropdown:hover .dropdown-content {
+                display: block;
+                }
+
+            i{
+                position: relative;
+                top: 1em;
+                margin-right: 1em;
+                float: right;
+              
+            }
+
+            /* -------------- nav ends here -------------- */
+
+            /* -------------- hero section starts here -------------- */
+
+            * {box-sizing: border-box;}
+                
+                .mySlides {display: none;}
+                img {vertical-align: middle;}
+
+            
+            .slideshow-container {
+                max-width: 100%;
+                position: relative;
+                margin: auto;
+                border-radius: 10px;
+                }
+
+            .text {
+                color: #f2f2f2;
+                font-size: 15px;
+                padding: 8px 12px;
+                position: absolute;
+                bottom: 8px;
+                width: 100%;
+                text-align: center;
+                }
+
+                
+            .numbertext {
+                color: #f2f2f2;
+                font-size: 12px;
+                padding: 8px 12px;
+                position: absolute;
+                top: 0;
+                }
+
+            
+            .bar {
+                height: 2px;
+                width: 60px;
+                position: relative;
+                top: -60px;
+                background-color: #bbb;
+                border-radius: 10px;
+                display: inline-block;
+                transition: background-color 0.6s ease;
+                }
+
+            .active {
+                background-color: #717171;
+                }
+
+            .fade {
+                -webkit-animation-name: fade;
+                -webkit-animation-duration: 1.5s;
+                animation-name: fade;
+                animation-duration: 1.5s;
+                }
+
+            @-webkit-keyframes fade {
+                from {opacity: .4} 
+                to {opacity: 1}
+                }
+
+            @keyframes fade {
+                from {opacity: .4} 
+                to {opacity: 1}
+                }
+
+             
+            @media only screen and (max-width: 300px) {
+                .text {font-size: 11px}
+                }
+
+        /* -------------- hero section ends here -------------- */
+
+        /* -------------- about section starts here -------------- */
+
+        #aboutus{
+            width: 100%;
+            height: 700px;
+            background-image: url("images/aboutus.webp");
+            background-size: cover;
+            
+            border-radius: 10px;
+        }
+
+        
+        p{
+            color: white;
+            text-align: center;
+            font-size: 4em;
+            text-shadow: 0px 0px 10px black ;
+            padding-top: 10%;
+        }
+        
+        /* -------------- about section starts here -------------- */
+
+
+        /* -------------- products section starts here -------------- */
+
+        #products{
+            width: 100%;
+            height: 700px;
+            background-color: rgb(238, 238, 238);
+            border-radius: 10px;
+            margin-top: 4em;
+            
+        }
+
+        #products1{
+            width: 20%;
+            height: 450px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 10px;
+            float: left;    
+            margin-left: 2.5%;
+            margin-right: 2.5% ;
+            margin-top: 0%;
+            
+        }
+        #products1:hover{
+            box-shadow: 0px 0px 20px rgb(173, 173, 173);
+           
+            
+        }
+
+        #pdimg{
+            width: 100%;
+            height: 250px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 10px;
+           
+        }
+
+        label{
+            position: relative;
+            top: 300px;
+            left: 20%;
+            font-size: 2em;
+        }
+
+        button{
+            background-color: red;
+            width: 200px;
+            height: 50px;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.5em;
+            color: white;
+            margin-top: 320px;
+            margin-left: 21%;
+        }
+
+        button:hover{
+            background-color: white;
+            border: 3px solid red;
+            color: red;
+        }
+
+        H1{
+            font-size: 3em;
+            text-align: center;
+            padding: 50px;
+        }
+
+        /* -------------- products section ends here -------------- */
+
+        /* -------------- contact section start here -------------- */
+
+        #contactus{
+            width: 100%;
+            height: 500px;
+            background-color: rgb(109, 109, 109);
+            margin-top: 3em;
+            border-radius: 10px;
+            
+            
+        }
+
+        #contact1{
+            width: 50%;
+            height: 100%;
+            background-color: rgb(0, 0, 0);
+            border-radius: 10px;
+            float: left;
+            color: white;   
+        }
+
+
+
+        /* -------------- contact section start here -------------- */
+
+
+
+
+        </style>
+
+    </head>
+
+
+    <body>
+
+        <div id="fullpage">
+
+            <div id="contents">
+
+                
+                <div id="nav bar">
+
+                    <nav>
+                        
+                        <image src="images/logo.svg" id="logo"></image>
+                        
+                        <ul>
+                            <li><a href="#aboutus">About JBL</a></li>
+                            <li><a href="#products">Products</a></li>
+                            
+                            <li><a href="#contactus">Contact us</a></li>
+
+                        </ul>
+
+                        
+
+    
+                    </nav>
+
+                    <br> 
+
+                    <div class="slideshow-container">
+
+                        <div class="mySlides fade">
+                          
+                          <img src="images/Hero1.webp" style="width:100%">
+                        
+                        </div>
+                        
+                        <div class="mySlides fade">
+                          
+                          <img src="images/hero2.webp" style="width:100%">
+                         
+                        </div>
+                        
+                        <div class="mySlides fade">
+                          
+                          <img src="images/hero3.webp" style="width:100%">
+                         
+                        </div>
+                        
+                        </div>
+                        <br>
+                        
+                        <div style="text-align:center">
+                          <span class="bar"></span> 
+                          <span class="bar"></span> 
+                          <span class="bar"></span> 
+                        </div>
+                        
+                        <script>
+                        var slideIndex = 0;
+                        showSlides();
+                        
+                        function showSlides() {
+                          var i;
+                          var slides = document.getElementsByClassName("mySlides");
+                          var dots = document.getElementsByClassName("bar");
+                          for (i = 0; i < slides.length; i++) {
+                            slides[i].style.display = "none";  
+                          }
+                          slideIndex++;
+                          if (slideIndex > slides.length) {slideIndex = 1}    
+                          for (i = 0; i < dots.length; i++) {
+                            dots[i].className = dots[i].className.replace(" active", "");
+                          }
+                          slides[slideIndex-1].style.display = "block";  
+                          dots[slideIndex-1].className += " active";
+                          setTimeout(showSlides, 2000); // Change image every 2 seconds
+                        }
+                        </script>
+    
+    
+    
+                </div>
+
+
+                <div id="aboutus">
+
+                    <p>JBL PROVIDES THE SOUNDTRACK TO<br>
+                    AMPLIFY THE MOMENT.<br>
+                    DON’T JUST LIVE, EXPERIENCE.<br>
+                    DON’T JUST HEAR,<br>
+                    #DARETOLISTEN.<br></p>
+
+                </div>
+
+
+                <div id="products">
+
+                    <H1> JBL PRODUCTS</H1>
+
+                    <div id="products1">
+
+                        <div id="pdimg" style="background-image: url(images/pd1.webp); background-size: contain; background-repeat: no-repeat;">
+                           
+                            <label>JWL C105TWS</label><br>
+                            <button> view product</button>
+
+                        </div>
+
+                    </div>
+
+
+                    <div id="products1">
+
+                       
+
+                        <div id="pdimg" style="background-image: url(images/pd2.jpg); background-size: contain; background-repeat: no-repeat;">
+                            
+
+                            <label>JWL C105TWS</label><br>
+                            <button> view product</button>
+
+                        </div>
+
+                    </div>
+
+
+                    <div id="products1">
+
+                        <div id="pdimg" style="background-image: url(images/pd3.webp); background-size: contain; background-repeat: no-repeat;">
+
+                            <label>JWL C105TWS</label><br>
+                            <button> view product</button>
+
+                        </div>
+
+                    </div>
+
+                    <div id="products1">
+
+                        <div id="pdimg" style="background-image: url(images/pd4.webp); background-size: contain; background-repeat: no-repeat;">
+
+                            <label>JWL C105TWS</label><br>
+                            <button> view product</button>
+
+                        </div>
+
+                    </div>
+
+
+
+
+                </div>
+
+
+                <div id="contactus">
+
+                    <div id="contact1" style="padding-left: 5%; padding-top: 10%">
+
+                        <span style="font-size: 1.5em">Contact us</span><br><br>
+                        1800-102-0525<br><br>
+
+                        Manufactured by:
+                        Harman International Industries, Inc.<br>
+                        8500, Balboa Blvd,<br>
+                        Northridge, CA 91329,USA<br><br>
+
+                        Imported by:<br>
+                        Harman International (India) Pvt. Ltd.,<br>
+                        Salarpuria Sattva Knowledge Court<br>
+                        Office-1, Wing ‘A’ & ‘B’ 6th floor,<br>
+                        Plot No. 9, Phase I , Doddenakkundi Industrial Area, Doddenakkundi Village, K.R. Puram Hobli, Bangalore East Taluk,<br>
+                        Bangalore-560048, Karnataka, India.<br>
+
+                    </div>
+
+                    <div id="contact1">
+
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124424.6368999819!2d77.63042095820315!3d12.954573300000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1234bb519e89%3A0x6625ca13b75efe84!2sHarman%20International%20India%20Pvt%20Ltd%20(Registered%20Office)!5e0!3m2!1sen!2sin!4v1644058234123!5m2!1sen!2sin" 
+                        width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" ></iframe>
+                            
+
+                        
+
+                    </div>
+
+                </div>
+
+                
+            </div>
+
+
+            
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+    </body>
+
+
+
+</html>
